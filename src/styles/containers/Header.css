@@ -1,0 +1,12 @@
+#inicio{
+    height: 85vh;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), #00000000), url(../../assets/header.png);
+    background-position: center;
+    background-size: cover;
+    color: var(--c-primary)
+}
+
+#inicio h1{
+    font-size: 50pt;
+    font-weight: 400;
+}

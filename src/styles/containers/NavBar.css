@@ -1,0 +1,25 @@
+.navbar{
+    background-color: var(--c-primary);
+    color: var(--c-secundary);
+}
+
+.navbar-button:hover{
+    cursor: pointer;
+}
+
+.logo-image{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-links-bottom{
+    background-color: var(--c-secundary);
+}
+
+.nav-links-bottom a{
+    color: var(--c-primary);
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+#servicos{
+    background-color: var(--c-primary);
+    color: var(--c-secundary)
+}
+
+.invisivel{
+    display: none; 
+}
+
+.image-background{
+    background: url(../../assets/servicos-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px; 
+}
+
+.subTitle-background{
+    background-color: var(--c-primary);
+}
+
+p{
+    line-height:1.5rem;
+    margin-bottom: -15px;
+}
+
+.hover-content{
+    color: var(--c-primary);
+    background: #ddb05783;
+    height: 100%;
+}
+
