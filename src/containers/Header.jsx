@@ -7,7 +7,7 @@ const Header = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-8'>
-                    <h1>TRANSFORMANDO SEU PLANEJAMENTO E SONHO EM REALIDADE</h1>
+                    <h1 className='fs-1'>TRANSFORMANDO SEU PLANEJAMENTO E SONHO EM REALIDADE</h1>
                 </div>     
             </div>
         </div>

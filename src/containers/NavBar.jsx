@@ -18,7 +18,7 @@ const NavBar = () => {
                 </button> */}
                 <div className='navbar-logo position-absolute start-0 w-100'>
                     <div className='container d-flex justify-content-center'>
-                        <img src={logo} alt='logo' className='logo-image z-1'/>
+                        <img src={logo} alt='logo' className='logo-image z-1 pb-1'/>
                     </div>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -38,10 +38,10 @@ const NavBar = () => {
         </nav>
         <div className='z-3 position-absolute d-flex w-100 nav-links-bottom'>
             <div className=' container d-flex justify-content-center align-items-center p-1'>
-                <a className="fs-5 pe-2" href='#'>Inicio</a>
-                <a className="fs-5 pe-2" href='#servicos'>Serviços</a>
-                <a className="fs-5 pe-2" href='#'>Sobre nós</a>
-                <a className="fs-5 pe-2" href='#'>Contato</a>
+                <a className="fs-6 pe-2" href='#'>Inicio</a>
+                <a className="fs-6 pe-2" href='#servicos'>Serviços</a>
+                <a className="fs-6 pe-2" href='#'>Sobre nós</a>
+                <a className="fs-6 pe-2" href='#'>Contato</a>
             </div>    
         </div> 
     </section>

@@ -1,0 +1,19 @@
+.contato-right{
+    height: 100%;
+}
+
+.contato-right button{
+    background-color: var(--c-secundary);
+}
+
+.contato-right button:hover{
+    background-color: var(--c-secundary);
+}
+
+.contato-content{
+    background-color: var(--c-primary);
+}
+
+.left-row{
+    background-color: var(--c-secundary);
+}
