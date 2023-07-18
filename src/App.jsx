@@ -1,4 +1,5 @@
 import './App.css'
+import Whatsapp from './components/Whatsapp'
 import Bombeiro from './containers/Bombeiro'
 import Cadan from './containers/Cadan'
 import Calculo from './containers/Calculo'
@@ -6,6 +7,7 @@ import Construcoes from './containers/Construcoes'
 import Contato from './containers/Contato'
 import Desdobro from './containers/Desdobro'
 import Edificacao from './containers/Edificacao'
+import Footer from './containers/Footer'
 import Habite from './containers/Habite'
 import Header from './containers/Header'
 import Hidraulicas from './containers/Hidraulicas'
@@ -26,7 +28,7 @@ function App() {
         <Header/>
         
         <Servicos/>
-        <Habite/>
+        {/* <Habite/>
         <Desdobro/>
         <Licenca/>
         <Cadan/>
@@ -38,9 +40,12 @@ function App() {
         <Instalacao/>
         <Hidraulicas/>
         <Construcoes/>
-        <Laudos/>
+        <Laudos/> */}
 
         <Contato/>
+
+        <Footer/>
+        <Whatsapp/>
       </div>
     </>
   )

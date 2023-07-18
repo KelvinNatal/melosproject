@@ -23,3 +23,7 @@ a{
     color: var(--c-primary);
     font-weight: 500;
 }
+
+.sexo{
+    margin-top: 8.5vh;
+}

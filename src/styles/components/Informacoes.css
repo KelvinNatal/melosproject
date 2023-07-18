@@ -2,6 +2,30 @@
     display: none; 
 }
 
+.servicos-background{
+    /* background: rgb(4,0,46);
+    background: linear-gradient(146deg, rgba(4,0,46,1) 0%, rgba(9,0,103,1) 60%); */
+    background-color: var(--c-primary)
+}
+
+.imagem-teste{
+    width: 80vw;
+}
+
+.title-badge{
+    width:8px;
+    height: 80px;
+    background-color: var(--c-secundary);
+}
+
+.title-servicos-badge{
+    width: 190px;
+    height: 4px;
+    margin-top: -11px;
+    z-index: 0;
+    background-color: var(--c-secundary);
+}
+
 .image-background{
     background: url(../../assets/servicos-background.png);
     background-position: center;
@@ -10,8 +34,8 @@
 }
 
 .subTitle-background{
-    background-color: var(--c-primary);
-    color: var(--c-secundary);
+    background-color: white;
+    color: var(--c-primary);
 }
 
 p{

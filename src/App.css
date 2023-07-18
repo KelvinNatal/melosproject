@@ -11,7 +11,11 @@ p{
   margin: 0;
 }
 
-#servicos, #desdobro, #cadan, #edificacao, #calculo, #instalacao, #construcoes{
+#servicos{
+  background-color: white;
+}
+
+#desdobro, #cadan, #edificacao, #calculo, #instalacao, #construcoes{
   background-color: var(--c-primary);
   color: var(--c-secundary)
 }

@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <>
     <section id='navbar'>
-        <nav className="navbar navbar-expand-lg p-3 d-flex flex-column">
+        <nav className="navbar navbar-expand-lg p-3 d-flex flex-column position-fixed w-100 z-3">
             <div className="container">
                 <AiOutlineMenu className='navbar-button fs-2 z-1'/>
                 {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@ const NavBar = () => {
                 </div>
             </div>       
         </nav>
-        <div className='z-3 position-absolute d-flex w-100 nav-links-bottom'>
+        <div className='z-3 d-flex w-100 nav-links-bottom position-fixed sexo'>
             <div className=' container d-flex justify-content-center align-items-center p-1'>
                 <a className="fs-6 pe-2" href='#'>Inicio</a>
                 <a className="fs-6 pe-2" href='#servicos'>Serviços</a>
