@@ -1,8 +1,23 @@
 li{
     list-style-type: none;
+    color: white;
+}
+
+.contato-footer{
+    color: var(--c-secundary);
+}
+
+.bg-footer{
+    background-color: var(--c-primary);
 }
 
 .footer-bottom{
+    color: var(--c-secundary);
     padding-top: 5px;
     padding-bottom: 40px;
+}
+
+.imagem-footer{
+    width: 250px;
+    height: 250px;
 }

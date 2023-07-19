@@ -1,11 +1,21 @@
 #inicio{
     height: 85vh;
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), #00000000), url(../../assets/header.png);
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.607), #0000003b), url(../../assets/fundoNovo.jpg);
     background-position: center;
     background-size: cover;
-    color: var(--c-primary)
+    color: white;
 }
 
 #inicio h1{
-    font-weight: 400;
+    font-weight: 500;
+}
+
+.button-header {
+    border-radius: 20px;
+    background-color: var(--c-primary);
+    color:white;
+}
+
+.button-header:hover{
+    background-color: var(--c-secundary);
 }

@@ -4,13 +4,15 @@ import '../styles/containers/Contato.css'
 const Contato = () => {
   return (
     <section id="contato">
-        <div className='contato-content p-4'>
-            <div className='container'>
-                <div className="left-row row m-4">
+        <div className='contato-content p-3'>
+            <div className='container d-flex justify-content-center'>
+                <div className="left-row row m-4 col-10 ">
                     <div className='col-6 d-flex justify-content-center flex-direction-column'>
                         <div className='row d-flex justify-content-center'>
-                            <div className="col-12 d-flex justify-content-center">
-                                <h1 className='fs-5 mt-3 mb-5 text-light'>Ficou interessado ?</h1>    
+                            <div className="col-12 d-flex align-items-center flex-column">
+                                <h1 className='fs-4 mt-4 mb-5 text-light'>Informações de contato</h1>
+                                <p>Entre em contato conosco nos canais a seguir</p>
+
                             </div> 
                            
                         </div>
@@ -35,7 +37,10 @@ const Contato = () => {
                                     </div>   
                                     <div class="form-floating col-12 mb-3 ps-1 d-flex justify-content-center">
                                         <button class="btn mt-4 mb-4" type="submit">Enviar</button>
-                                    </div>       
+                                    </div>  
+                                    <div class="form-floating col-12 mb-3 ps-1 d-flex justify-content-center">
+                                        <button class="btn mt-4 mb-4" type="submit">Enviar</button>
+                                    </div>        
                                 </div>                       
                             </div>
                     </div>

@@ -36,14 +36,14 @@ const NavBar = () => {
                 </div>
             </div>       
         </nav>
-        <div className='z-3 d-flex w-100 nav-links-bottom position-fixed sexo'>
+       {/*<div className='z-3 d-flex w-100 nav-links-bottom position-fixed nav-bottom'>
             <div className=' container d-flex justify-content-center align-items-center p-1'>
                 <a className="fs-6 pe-2" href='#'>Inicio</a>
                 <a className="fs-6 pe-2" href='#servicos'>Serviços</a>
                 <a className="fs-6 pe-2" href='#'>Sobre nós</a>
                 <a className="fs-6 pe-2" href='#'>Contato</a>
             </div>    
-        </div> 
+        </div>*/}
     </section>
     </>
   )

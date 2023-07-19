@@ -1,6 +1,6 @@
 .navbar{
-    background-color: var(--c-primary);
-    color: var(--c-secundary);
+    /*background-color: var(--c-primary);*/
+    color: white;
 }
 
 .navbar-button:hover{
@@ -24,6 +24,6 @@ a{
     font-weight: 500;
 }
 
-.sexo{
-    margin-top: 8.5vh;
+.nav-bottom{
+    margin-top: 70px;
 }

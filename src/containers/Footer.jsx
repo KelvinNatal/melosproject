@@ -1,28 +1,45 @@
 import React from 'react'
 import '../styles/containers/Footer.css'
 
+import { BsWhatsapp, BsFacebook, BsInstagram} from 'react-icons/bs'
+import imagem from '../assets/logo.png'
+
 const Footer = () => {
   return (
     <section id='footer'>
-        <div className='bg-primary'>
+        <div className='bg-footer mt-5'>
             <div className='container d-flex'>
                 <div className='row col-12'>
-                    <div className='col-4 d-flex justify-content-center align-items-center flex-column'>
-                        <h1 className='fs-4 mt-5'>Contatos</h1>
-                            <ul className='d-flex flex-column justify-content-center'>
-                                    <li>1124816172</li>
-                                    <li>email@email.com</li>
-                                    <li>11948563247</li>
-                            </ul>
+                    <div className='col-3 ms-auto d-flex justify-content-center flex-column'>
+                        <img src={imagem} alt='' className='imagem-footer'></img>
                     </div>
-                    <div className='col-4 d-flex flex-column justify-content-center align-items-center'>
-                        <h1 className='fs-4 mt-3'>Serviços</h1>
-                            <ul className='d-flex flex-column justify-content-center'>
-                                <li>asda</li>
-                                <li>asas</li>
-                            </ul>
+                    <div className='col-3 d-flex justify-content-center align-items-center contato-footer flex-column'>
+                            <h1 className='fs-5'>Contatos</h1>
+                                <ul className='d-flex flex-column justify-content-center align-items-center me-4 pe-2'>
+                                        <li>1124816172</li>
+                                        <li>email@email.com</li>
+                                </ul>                                         
                     </div>
-                    <div className='col-4 d-flex justify-content-center flex-column'>
+                    <div className='col-3 d-flex mb-4 justify-content-center align-items-center flex-column contato-footer'>
+                        <h1 className='fs-5'>Endereço</h1>
+                            <ul className='d-flex flex-column justify-content-center me-4'>
+                                    <li>Rua Lorem Ipsum</li>
+                            </ul>  
+                    </div>      
+                    <div className='col-3 d-flex align-items-center'>
+                        <ul className="ms-auto d-flex">
+                            <li className="p-2">
+                                <BsWhatsapp className='fs-4'/>
+                            </li>
+                            <li className="p-2">
+                                <BsFacebook className='fs-4'/>
+                            </li>
+                            <li className="p-2">
+                                <BsInstagram className='fs-4'/>
+                            </li>
+                        </ul>
+                    </div>
+                    {/*<div className='col-4 d-flex justify-content-center flex-column'>
                         <div className=' col-12'>
                             <div class="row">
                                 <div className='col-12 d-flex justify-content-center'>
@@ -36,7 +53,7 @@ const Footer = () => {
                                 </div>
                             </div> 
                         </div>
-                    </div>
+                    </div>*/}
                     <hr></hr>
                     <div class="footer-bottom">
                         <div class="container">

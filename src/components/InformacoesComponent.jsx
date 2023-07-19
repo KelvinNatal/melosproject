@@ -12,11 +12,11 @@ const [visivel, setVisivel] = useState(false);
   return (
         <div className='container'>
             <div className='row'>
-                <div className='servicos-background mb-5 mt-5 rounded-5'>
+                <div className='servicos-background mb-5 mt-5 rounded-4'>
                     <div className='col-12 d-flex align-items-center justify-content-center mt-5 flex-column z-2'>
                         <h1 className='text-light z-1'>{title}</h1>
                         <div className='title-servicos-badge z-0'></div>
-                        <p className='text-white-50 mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p className='text-white-50 mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                         <div className='col-12 d-flex align-items-center justify-content-center mt-5 z-2'>
                             <div className='col-8 d-flex align-items-center justify-content-center mt-4'>

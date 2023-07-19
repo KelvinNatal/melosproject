@@ -19,9 +19,9 @@
 }
 
 .title-servicos-badge{
-    width: 190px;
+    width: 60px;
     height: 4px;
-    margin-top: -11px;
+    margin-top: 0px;
     z-index: 0;
     background-color: var(--c-secundary);
 }
