@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../styles/containers/NavBar.css'
 
 import { BsWhatsapp, BsFacebook, BsInstagram} from 'react-icons/bs'
@@ -7,10 +7,27 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import logo from '../assets/logo.png'
 
 const NavBar = () => {
+
+    const [scrolled, setScrolled] = useState('');
+
+    useEffect(() => {
+        const onScroll = () => {
+            if (window.scrollY > 10){
+                setScrolled('navbar-background');
+            } else {
+                setScrolled('');
+            }
+        }
+
+        window.addEventListener("scroll", onScroll);
+
+        return () => window.addEventListener("scroll", onScroll);
+    }, [])
+
   return (
     <>
     <section id='navbar'>
-        <nav className="navbar navbar-expand-lg p-3 d-flex flex-column position-fixed w-100 z-3">
+        <nav className={`navbar navbar-expand-lg p-3 d-flex flex-column position-fixed w-100 z-3 ${scrolled}`}>
             <div className="container">
                 <AiOutlineMenu className='navbar-button fs-2 z-1'/>
                 {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

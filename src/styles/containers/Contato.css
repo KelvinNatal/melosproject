@@ -17,3 +17,12 @@
 .left-row{
     background-color: var(--c-secundary);
 }
+
+.informacoes-content{
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+    box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+}
+

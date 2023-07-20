@@ -1,5 +1,8 @@
+.navbar-background{
+    background-color: var(--c-primary);
+}
+
 .navbar{
-    /*background-color: var(--c-primary);*/
     color: white;
 }
 
