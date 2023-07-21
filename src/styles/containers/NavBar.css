@@ -1,5 +1,5 @@
 .navbar-background{
-    background-color: var(--c-primary);
+    background-color: var(--c-primary-transparent);
 }
 
 .navbar{
@@ -11,22 +11,25 @@
 }
 
 .logo-image{
-    width: 150px;
+    width: 80px;
 }
 
 a{
     text-decoration: none;
 }
 
-.nav-links-bottom{
-    background-color: var(--c-secundary);
-}
-
 .nav-links-bottom a{
-    color: var(--c-primary);
+    color: white;
     font-weight: 500;
 }
 
+.nav-links-bottom a:hover{
+    color: var(--c-secundary);
+}
+
+a.ativo{
+    color: var(--c-secundary);
+}
 .nav-bottom{
     margin-top: 70px;
 }

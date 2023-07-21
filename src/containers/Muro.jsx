@@ -10,7 +10,7 @@ const Muro = () => {
     }
     
       return (
-        <section id="">
+        <section id="muro">
             <InformacoesComponent {...informacoes}/>
         </section>
       )

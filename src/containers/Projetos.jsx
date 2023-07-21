@@ -10,7 +10,7 @@ const Projetos = () => {
     }
     
       return (
-        <section id="">
+        <section id="projetos">
             <InformacoesComponent {...informacoes}/>
         </section>
       )

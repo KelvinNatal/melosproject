@@ -11,7 +11,7 @@ const Habite = () => {
     }
     
       return (
-        <section id="">
+        <section id="habite">
             <InformacoesComponent {...informacoes}/>
         </section>
       )
