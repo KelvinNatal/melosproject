@@ -6,7 +6,6 @@ import { AiFillMail } from 'react-icons/ai';
 import { RiWhatsappFill } from 'react-icons/ri';
 import { BsWhatsapp, BsFacebook, BsInstagram, BsTelephoneFill} from 'react-icons/bs'
 
-
 const Contato = () => {
   return (
     <section id="contato">
@@ -46,27 +45,27 @@ const Contato = () => {
                     <div class="col-12 col-lg-6 d-flex justify-content-center flex-direction-column">
                         <div className='contato-div mt-5 mt-lg-3'>
                             <h1 className='fs-3 mb-5'>Informações de contato</h1>
-                            <ul class="contact-list d-flex flex-column align-items-start justify-content-center pt-3">
-                                <li class="list-item mb-3"><MdLocationPin className='contato-icon me-5'/><span class="contact-text place">São Paulo, SP</span></li>
+                            <ul className="contact-list d-flex flex-column align-items-start justify-content-center pt-3">
+                                <li className="mb-3"><MdLocationPin className='contato-icon me-5'/><span className="contact-text place fw-semibold">São Paulo, SP</span></li>
                                 
-                                <li class="list-item mb-3"><BsTelephoneFill className='contato-icon me-5'/><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
+                                <li className="mb-3"><BsTelephoneFill className='contato-icon me-5'/><span className="fw-semibold"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
                                 
-                                <li class="list-item mb-3"><RiWhatsappFill className='contato-icon me-5'/><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
+                                <li className="mb-3"><RiWhatsappFill className='contato-icon me-5'/><span className="fw-semibold"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
 
-                                <li class="list-item mb-3"><AiFillMail className='contato-icon me-5'/><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></li>   
+                                <li className="mb-3"><AiFillMail className='contato-icon me-5'/><span className="fw-semibold"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></li>   
                             </ul>
                             <hr/>
-                            <ul className="d-flex align-items-center justify-content-center z-1">
-                                <li className="nav-item p-2">
-                                    <BsWhatsapp className='fs-4'/>
-                                </li>
-                                <li className="nav-item p-2">
-                                    <BsFacebook className='fs-4'/>
-                                </li>
-                                <li className="nav-item p-2">
-                                    <BsInstagram className='fs-4'/>
-                                </li>
-                            </ul>
+                                <ul className="d-flex align-items-center justify-content-center z-1">
+                                    <li className="nav-item p-2">
+                                        <BsWhatsapp className='fs-4'/>
+                                    </li>
+                                    <li className="nav-item p-2">
+                                        <BsFacebook className='fs-4'/>
+                                    </li>
+                                    <li className="nav-item p-2">
+                                        <BsInstagram className='fs-4'/>
+                                    </li>
+                                </ul>
                             <hr/>
                         </div>
                     </div>                    

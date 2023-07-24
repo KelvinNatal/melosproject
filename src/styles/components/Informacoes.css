@@ -5,7 +5,7 @@
 .servicos-background{
     /* background: rgb(4,0,46);
     background: linear-gradient(146deg, rgba(4,0,46,1) 0%, rgba(9,0,103,1) 60%); */
-    background-color: var(--c-primary)
+    background-color: var(--c-primary);
 }
 
 .imagem-teste{
