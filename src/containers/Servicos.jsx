@@ -117,6 +117,7 @@ const informacoesDown = [
 
   return (
     <section id="servicos">
+      <div className='background-fundo'>
         <div className='container'>
             <div className='row m-2 m-lg-0'>
                 <div className='servicos-background mb-5 mt-5 rounded-4'>
@@ -212,6 +213,7 @@ const informacoesDown = [
                 </div>
             </div>
         </div>
+      </div>
     </section>
   )
 }

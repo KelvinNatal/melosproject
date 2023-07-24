@@ -5,8 +5,8 @@ import '../styles/containers/SobreNos.css'
 const SobreNos = () => {
   return (
     <section id="sobre">
-        <div className='mb-5'>
-            <div className='container d-flex flex-column align-items-center'>
+        <div className='pb-5 background-fundo'>
+            <div className='container bg-white d-flex flex-column align-items-center p-0 rounded-4 pb-5'>
                 <div className='row p-4 background-sobre rounded-top-4 rounded-bottom-1 m-2 m-lg-0'>
                     <div className='col-12 d-flex align-items-center justify-content-center mt-5 mb-5 flex-column z-2'>
                         <h1 className='z-1 text-light'>Sobre Nós</h1>

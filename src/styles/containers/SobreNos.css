@@ -8,6 +8,10 @@
     background-color: var(--c-primary);
 }
 
+.background-fundo{
+    background-color: #d3d3d354;
+}
+
 .title-servicos-badge-final{
     width: 80%;
     height: 3px;
