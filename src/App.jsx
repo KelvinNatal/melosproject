@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <div className='main'>
+      <div className='main' data-bs-spy="scroll" data-bs-target=".main">
         <NavBar/>
         <Header/>
         

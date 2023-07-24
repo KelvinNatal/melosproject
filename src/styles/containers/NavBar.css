@@ -30,6 +30,17 @@ a{
 a.ativo{
     color: var(--c-secundary);
 }
+
 .nav-bottom{
     margin-top: 70px;
 }
+
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+
+.nav-link.active {
+    color: var(--c-secundary) !important;
+    text-decoration:none;
+}
+

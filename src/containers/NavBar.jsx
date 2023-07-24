@@ -26,32 +26,32 @@ const NavBar = () => {
   return (
     <>
     <section id='navbar'>
-        <nav className={`navbar navbar-expand-lg p-1 d-flex flex-column position-fixed w-100 z-3 ${scrolled}`}>
+        <nav className={`navbar navbar-dark navbar-expand-lg p-1 d-flex flex-column position-fixed w-100 z-3 ${scrolled}`}>
             <div className="container">
                 <div className='navbar-brand navbar-logo mt-1'>
                     <div className='container'>
-                        <img src={logo} alt='logo' className='logo-image pb-1'/>
+                        <a href='#inicio'><img src={logo} alt='logo' className='logo-image pb-1'/></a>
                     </div>
                 </div>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className='navbar-nav d-flex ms-auto nav-links-bottom justify-content-center mt-1'>
                         <li className="nav-item p-2">
-                            <a className="nav-link ativo fs-6 pe-2" href='#'>Inicio</a>
+                            <a className="nav-link fs-6 pe-2" href='#inicio'>Inicio</a>
                         </li>
                         <li className="nav-item p-2">
                             <a className="nav-link fs-6 pe-2" href='#servicos'>Serviços</a>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-link fs-6 pe-2" href='#'>Sobre nós</a>
+                            <a className="nav-link fs-6 pe-2" href='#sobre'>Sobre nós</a>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-link fs-6 pe-2" href='#'>Contato</a>
+                            <a className="nav-link fs-6 pe-2" href='#contact'>Contato</a>
                         </li>
                     </ul>
-                    <ul className="navbar-nav ms-auto d-flex align-items-center justify-content-center z-1">
+                    <ul className="mt-3 ms-auto d-flex align-items-center justify-content-center z-1">
                         <li className="nav-item p-2">
                             <BsWhatsapp className='fs-4'/>
                         </li>

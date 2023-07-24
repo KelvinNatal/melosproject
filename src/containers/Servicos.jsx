@@ -113,6 +113,8 @@ const informacoesDown = [
       }
   }, []);
 
+  const zekinha = false;
+
   const isMobile = width <= 768;
 
   return (
@@ -124,15 +126,16 @@ const informacoesDown = [
                     <div className='col-12 d-flex align-items-center justify-content-center mt-5 flex-column z-2'>
                         <h1 className='text-light z-1'>Serviços</h1>
                         <div className='title-servicos-badge z-0'></div>
-                        <p className='text-white-50 mt-3 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p className='text-white-50 mt-3 text-center w-50'>Veja os serviços que temos a oferecer para você</p>
                     </div>
                     <Swiper
                       modules={[Autoplay, Navigation, Pagination, A11y]}
                       spaceBetween={50}
                       slidesPerView={1}
                       autoplay={{
-                        delay: 2000,
+                        delay: 5500,
                         disableOnInteraction: false,
+                        pauseOnMouseEnter: true
                       }}
                       navigation
                       pagination={{ clickable: true }}
@@ -177,8 +180,9 @@ const informacoesDown = [
                             spaceBetween={50}
                             slidesPerView={1}
                             autoplay={{
-                              delay: 3250,
+                              delay: 5750,
                               disableOnInteraction: false,
+                              pauseOnMouseEnter: true
                             }}
                             navigation
                             pagination={{ clickable: true }}
