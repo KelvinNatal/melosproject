@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import InformacoesComponent from '../components/InformacoesComponent'
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import image from '../assets/2.png'
 import image2 from '../assets/3Novo.png'
@@ -127,9 +127,13 @@ const informacoesDown = [
                         <p className='text-white-50 mt-3 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <Swiper
-                      modules={[Navigation, Pagination, A11y]}
+                      modules={[Autoplay, Navigation, Pagination, A11y]}
                       spaceBetween={50}
                       slidesPerView={1}
+                      autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                      }}
                       navigation
                       pagination={{ clickable: true }}
                       onSlideChange={() => console.log('slide change')}
@@ -169,9 +173,13 @@ const informacoesDown = [
                       ))}
                 </Swiper>
                         <Swiper
-                            modules={[Navigation, Pagination, A11y]}
+                            modules={[Autoplay, Navigation, Pagination, A11y]}
                             spaceBetween={50}
                             slidesPerView={1}
+                            autoplay={{
+                              delay: 3250,
+                              disableOnInteraction: false,
+                            }}
                             navigation
                             pagination={{ clickable: true }}
                             onSlideChange={() => console.log('slide change')}
