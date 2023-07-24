@@ -21,7 +21,7 @@ function App() {
         <Header/>
         
         <Servicos/>
-        <SobreNos/>
+        <SobreNos/> 
         <Contato/>
 
         <Footer/>

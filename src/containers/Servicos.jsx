@@ -119,8 +119,8 @@ const informacoesDown = [
     <section id="servicos">
       <div className='background-fundo'>
         <div className='container'>
-            <div className='row m-2 m-lg-0'>
-                <div className='servicos-background mb-5 mt-5 rounded-4'>
+            <div className='row m-2 mb-0 m-lg-0'>
+                <div className='servicos-background mb-5 mt-5 rounded-4 shadow'>
                     <div className='col-12 d-flex align-items-center justify-content-center mt-5 flex-column z-2'>
                         <h1 className='text-light z-1'>Serviços</h1>
                         <div className='title-servicos-badge z-0'></div>
@@ -146,7 +146,7 @@ const informacoesDown = [
                         <div className='col-12 d-flex align-items-center justify-content-center mt-5 z-2 flex-column-reverse flex-lg-row'>
                               <div className='col-12 col-lg-8 d-flex align-items-center justify-content-center mt-4'>
                                   <div onMouseOver={() => setVisivelUp(true)} className='w-100 m-lg-5 w-lg-75 mt-5 d-flex flex-column-reverse rounded-3 z-2' style={{
-                                      background: `linear-gradient(rgba(var(--c-brand-rgb), 0.507), #0000003b), url(${informacoes.imagem})`,
+                                      background: `linear-gradient(rgba(var(--c-brand-rgb), 0.307), #0000003b), url(${informacoes.imagem})`,
                                       backgroundPosition: 'center',
                                       backgroundSize: 'cover',
                                       height: '300px'
@@ -192,7 +192,7 @@ const informacoesDown = [
                                     </div> 
                                     <div className='col-12 col-lg-8 d-flex justify-content-center mb-1 z-2'>
                                         <div onMouseOver={() => setVisivelDown(true)} className='w-100 m-lg-5 w-lg-75 mt-5 mt-5 d-flex flex-column-reverse rounded-3 z-2'style={{
-                                      background: `linear-gradient(rgba(var(--c-brand-rgb), 0.507), #0000003b),url(${informacoes.imagem})`,
+                                      background: `linear-gradient(rgba(var(--c-brand-rgb), 0.307), #0000003b),url(${informacoes.imagem})`,
                                       backgroundPosition: 'center',
                                       backgroundSize: 'cover',
                                       height: '300px'
