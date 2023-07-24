@@ -1,0 +1,48 @@
+.invisivel{
+    display: none; 
+}
+
+.servicos-background{
+    /* background: rgb(4,0,46);
+    background: linear-gradient(146deg, rgba(4,0,46,1) 0%, rgba(9,0,103,1) 60%); */
+    background: rgb(4,0,46);
+    background: linear-gradient(240deg, rgba(4,0,46,1) 0%, rgba(0,0,110,1) 54%, rgba(17,6,130,1) 100%);
+}
+
+.imagem-teste{
+    width: 80vw;
+}
+
+.title-badge{
+    width:8px;
+    height: 80px;
+    background-color: var(--c-secundary);
+}
+
+.title-servicos-badge{
+    width: 60px;
+    height: 4px;
+    margin-top: 0px;
+    z-index: 0;
+    background-color: var(--c-secundary);
+}
+
+.subTitle-background{
+    background-color: rgba(255, 255, 255, 0.781);
+    color: var(--c-primary);
+    -webkit-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+    box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+}
+
+p{
+    line-height:1.5rem;
+    margin-bottom: -15px;
+}
+
+.hover-content{
+    color: var(--c-primary);
+    background: #ddb05783;
+    height: 100%;
+}
+

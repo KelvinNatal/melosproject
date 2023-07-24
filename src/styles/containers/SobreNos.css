@@ -1,0 +1,17 @@
+.image-sobre{
+    background: url(../../assets/logo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.background-sobre{
+    background-color: var(--c-primary);
+}
+
+.title-servicos-badge-final{
+    width: 80%;
+    height: 3px;
+    margin-top: 0px;
+    z-index: 0;
+    background-color: black;
+}
