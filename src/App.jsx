@@ -19,6 +19,11 @@ import NavBar from './containers/NavBar'
 import Projetos from './containers/Projetos'
 import Servicos from './containers/Servicos'
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 function App() {
 
   return (

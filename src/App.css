@@ -19,3 +19,15 @@ p{
   background-color: var(--c-primary);
   color: var(--c-secundary)
 }
+
+.swiper-button-prev {
+  color: var(--c-secundary) !important;
+}
+
+.swiper-button-next {
+  color: var(--c-secundary) !important; 
+}
+
+.swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal{
+  color: var(--c-secundary) !important;
+} 

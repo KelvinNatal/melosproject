@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import '../styles/containers/NavBar.css'
 
 import { BsWhatsapp, BsFacebook, BsInstagram} from 'react-icons/bs'
-import { AiOutlineMenu } from 'react-icons/ai'
 
 import logo from '../assets/logo.png'
 

@@ -7,11 +7,18 @@
 }
 
 .contato-content{
-    background-color: var(--c-primary);
+    background: rgb(4,0,46);
+    background: linear-gradient(180deg, rgba(4,0,46,1) 0%, rgba(0,0,110,1) 54%, rgba(17,6,130,1) 100%);
 }
 
 .left-row{
-    background-color: var(--c-secundary);
+   
+    color: rgba(255, 255, 255, 0.877);
+    text-decoration: none;
+}
+
+.left-row a{
+    color: rgba(255, 255, 255, 0.877);
 }
 
 .informacoes-content{
@@ -20,5 +27,9 @@
     -webkit-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
     -moz-box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
     box-shadow: 1px 0px 20px -6px rgba(0,0,0,0.5);
+}
+
+.contato-icon{
+    font-size: 30px;
 }
 
