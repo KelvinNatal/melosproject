@@ -48,7 +48,7 @@ const NavBar = () => {
                             <a className="nav-link fs-6 pe-2" href='#sobre'>Sobre nós</a>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-link fs-6 pe-2" href='#contact'>Contato</a>
+                            <a className="nav-link fs-6 pe-2" href='#contacto'>Contato</a>
                         </li>
                     </ul>
                     <ul className="mt-3 ms-auto d-flex align-items-center justify-content-center z-1">

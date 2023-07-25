@@ -8,7 +8,7 @@ import { BsWhatsapp, BsFacebook, BsInstagram, BsTelephoneFill} from 'react-icons
 
 const Contato = () => {
   return (
-    <section id="contact">
+    <section id="contacto">
         <div className='contato-content p-lg-5 d-flex justify-content-center'>
             <div className='container d-flex justify-content-center m-lg-5'>
                 <div className="left-row row m-4 col-12 col-lg-10">
