@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <>
-    <section id='navbar'>
+    <section id='navb'>
         <nav className={`navbar navbar-dark navbar-expand-lg p-1 d-flex flex-column position-fixed w-100 z-3 ${scrolled}`}>
             <div className="container">
                 <div className='navbar-brand navbar-logo mt-1'>

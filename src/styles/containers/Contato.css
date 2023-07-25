@@ -1,3 +1,7 @@
+#contact{
+    overflow: hidden;
+}
+
 .contato-right button{
     background-color: var(--c-secundary);
 }

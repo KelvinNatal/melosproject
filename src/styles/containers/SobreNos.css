@@ -1,3 +1,7 @@
+#sobre{
+    overflow: hidden;
+}
+
 .image-sobre{
     background: url(../../assets/logo.png);
     background-position: center;
