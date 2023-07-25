@@ -12,7 +12,7 @@ const Contato = () => {
         <div className='contato-content p-lg-5 d-flex justify-content-center'>
             <div className='container d-flex justify-content-center m-lg-5'>
                 <div className="left-row row m-4 col-12 col-lg-10">
-                    <div className='contato-right col-lg-6 bg-white pe-4 rounded-4'>
+                    <div className='contato-right col-lg-6 bg-white pe-4 rounded-4' data-aos="fade-up">
                         <div className='row'>         
                             <div className='col-12 d-flex flex-column justify-content-lg-center align-items-lg-center ms-1'>
                                 <div className="col-12 d-flex justify-content-center mb-5 mb-lg-0">
@@ -42,7 +42,7 @@ const Contato = () => {
                             </div>                       
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-direction-column">
+                    <div class="col-12 col-lg-6 d-flex justify-content-center flex-direction-column" data-aos="fade-left">
                         <div className='contato-div mt-5 mt-lg-3'>
                             <h1 className='fs-3 mb-5'>Informações de contato</h1>
                             <ul className="contact-list d-flex flex-column align-items-start justify-content-center pt-3">

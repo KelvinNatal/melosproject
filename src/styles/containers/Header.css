@@ -11,11 +11,38 @@
 }
 
 .button-header {
-    border-radius: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
     background-color: var(--c-primary);
-    color:white;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1s linear;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
 }
 
 .button-header:hover{
-    background-color: var(--c-secundary);
+    background-color: #10067a;
+    transition : 1s linear;
+    transform: translateY(-0px);
+    padding: 10px 50px;
 }
+
+@keyframes slidein {
+    0%   {
+        margin-top: 0px;
+    }
+    50%  {
+        margin-top: 100px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+  }

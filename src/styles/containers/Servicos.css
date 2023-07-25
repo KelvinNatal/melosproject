@@ -44,5 +44,6 @@ p{
     color: var(--c-primary);
     background: #ddb05783;
     height: 100%;
+    cursor: grab;
 }
 

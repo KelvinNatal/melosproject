@@ -113,8 +113,6 @@ const informacoesDown = [
       }
   }, []);
 
-  const zekinha = false;
-
   const isMobile = width <= 768;
 
   return (
@@ -124,9 +122,9 @@ const informacoesDown = [
             <div className='row m-2 mb-0 m-lg-0'>
                 <div className='servicos-background mb-5 mt-5 rounded-4 shadow'>
                     <div className='col-12 d-flex align-items-center justify-content-center mt-5 flex-column z-2'>
-                        <h1 className='text-light z-1'>Serviços</h1>
-                        <div className='title-servicos-badge z-0'></div>
-                        <p className='text-white-50 mt-3 text-center w-50'>Veja os serviços que temos a oferecer para você</p>
+                        <h1 className='text-light z-1' data-aos="fade-down">Serviços</h1>
+                        <div className='title-servicos-badge z-0' data-aos="fade-left"></div>
+                        <p className='text-white-50 mt-3 text-center w-50' data-aos="fade-right">Veja os serviços que temos a oferecer para você</p>
                     </div>
                     <Swiper
                       modules={[Autoplay, Navigation, Pagination, A11y]}
@@ -168,8 +166,8 @@ const informacoesDown = [
                                   </div>         
                               </div>                      
                               <div className='col-12 col-lg-4 d-flex justify-content-start align-items-center mt-3 mt-lg-0'>
-                                  <div className='title-badge'></div>
-                                  <h1 className='fs-2 ps-2 text-light'>{informacoes.subtitle}</h1>
+                                  <div className='title-badge' data-aos="fade-down"></div>
+                                  <h1 className='fs-2 ps-2 text-light' data-aos="fade-left">{informacoes.subtitle}</h1>
                               </div> 
                           </div>
                           </SwiperSlide>
@@ -199,8 +197,8 @@ const informacoesDown = [
                             <SwiperSlide>
                                 <div className='col-12 d-flex align-items-center justify-content-end flex-column-reverse flex-lg-row'>
                                     <div className='col-12 col-lg-4 d-flex justify-content-end align-items-center m-4 m-lg-0'>
-                                        <h1 className='fs-2 ms-5 text-light'>{informacoes.subtitle}</h1>
-                                        <div className='title-badge ms-2'></div>
+                                        <h1 className='fs-2 ms-5 text-light' data-aos="fade-right">{informacoes.subtitle}</h1>
+                                        <div className='title-badge ms-2' data-aos="fade-down"></div>
                                     </div> 
                                     <div className='col-12 col-lg-8 d-flex justify-content-center mb-1 z-2'>
                                         <div onMouseOver={() => setVisivelDown(true)} className='w-100 m-lg-5 w-lg-75 mt-5 mt-5 d-flex flex-column-reverse rounded-3 z-2'style={{
