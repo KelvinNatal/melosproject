@@ -37,6 +37,32 @@
     font-size: 30px;
 }
 
-.form-control{
-    border-radius: 15px;
+.form-control, .form-select{
+    border-radius: 20px;
+    border:1px solid rgba(106, 107, 103, 0.829);
+}
+
+.button-contato {
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    background-color: var(--c-secundary);
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 0.2s linear;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-contato:hover{
+    background-color: #f7c155;
+    color: aliceblue;
+    transition : 0.2s linear;
+    transform: translateY(-0px);
+    padding: 10px 50px;
 }

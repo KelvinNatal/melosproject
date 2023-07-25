@@ -14,7 +14,7 @@ const Contato = () => {
                 <div className="left-row row m-4 col-12 col-lg-10">
                     <div className='contato-right col-lg-6 bg-white pe-4 rounded-4' data-aos="fade-up">
                         <div className='row'>         
-                            <div className='col-12 d-flex flex-column justify-content-lg-center align-items-lg-center ms-1'>
+                            <form className='col-12 d-flex flex-column justify-content-lg-center align-items-lg-center ms-1'>
                                 <div className="col-12 d-flex justify-content-center mb-5 mb-lg-0">
                                     <h1 className='fs-5 mt-3 mb-lg-5 mb-0 text-black'>Fale Conosco</h1>    
                                 </div> 
@@ -28,18 +28,33 @@ const Contato = () => {
                                         <label for="floatingInput">Telefone</label>
                                     </div>   
                                 </div>
-                                <div class="form-floating col-12 mb-lg-3 mt-4 ps-1">
+                                <div class="form-floating col-12 mb-lg-3 mt-4 mt-lg-1 ps-1">
                                     <input type="email" class="form-control" id="floatingInput" />
                                     <label for="floatingInput">E-mail</label>
                                 </div>   
-                                <div class="form-floating col-12 mb-lg-3 mt-4 ps-1">
-                                    <input type="email" class="form-control" id="floatingInput" />
-                                    <label for="floatingInput">E-mail</label>
-                                </div>  
+                                <div class="input-group mt-4 mt-lg-1 ps-1">
+                                    <select className="form-select p-3" id="inputGroupSelect01">
+                                        <option selected>Serviço interessado...</option>
+                                        <option value="1">Regularização e Aprovações PMSP</option>
+                                        <option value="2">Habite-se</option>
+                                        <option value="3">Desdobro de Lotes</option>
+                                        <option value="3">Licenças de Funcionamento</option>
+                                        <option value="3">Cadan</option>
+                                        <option value="3">Bombeiro/AVCB</option>
+                                        <option value="3">Edificações e Obras</option>
+                                        <option value="3">Projetos Arquitetônicos</option>
+                                        <option value="3">Calculo Estrutural</option>
+                                        <option value="3">Muro de Arrimo</option>
+                                        <option value="3">Instalações Elétricas</option>
+                                        <option value="3">Instalações Hidráulicas</option>
+                                        <option value="3">Construções e Reformas</option>
+                                        <option value="3">Laudos Técnicos</option>
+                                    </select>
+                                </div>
                                 <div class="form-floating col-12 mb-lg-3 ps-1 d-flex justify-content-center">
-                                    <button class="btn mt-4 mb-4 pe-4 ps-4 pt-2 pb-2 rounded-4 fw-medium" type="submit">Enviar</button>
+                                    <button className="button-contato mt-4" type="submit">Enviar</button>
                                 </div>        
-                            </div>                       
+                            </form>                       
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-center flex-direction-column" data-aos="fade-left">
