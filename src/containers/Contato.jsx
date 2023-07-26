@@ -52,7 +52,7 @@ const Contato = () => {
                                     </select>
                                 </div>
                                 <div class="form-floating col-12 mb-lg-3 ps-1 d-flex justify-content-center">
-                                    <button className="button-contato mt-4" type="submit">Enviar</button>
+                                    <button className="button-contato mt-4 mb-4 mb-lg-0" type="submit">Enviar</button>
                                 </div>        
                             </form>                       
                         </div>
