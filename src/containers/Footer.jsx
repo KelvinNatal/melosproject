@@ -1,7 +1,10 @@
 import React from 'react'
 import '../styles/containers/Footer.css'
 
-import { BsWhatsapp, BsFacebook, BsInstagram} from 'react-icons/bs'
+import { BsWhatsapp, BsFacebook, BsInstagram, BsTelephoneFill} from 'react-icons/bs'
+import { MdLocationPin } from 'react-icons/md';
+import { AiFillMail } from 'react-icons/ai';
+import { RiWhatsappFill } from 'react-icons/ri';
 import imagem from '../assets/logo.png'
 
 const Footer = () => {
@@ -13,14 +16,15 @@ const Footer = () => {
                     <div className='col-12 col-lg-3 pt-4 pb-3 d-flex justify-content-center'>
                         <img src={imagem} alt='' className='imagem-footer'></img>
                     </div>
-                    <div className='col-12 col-lg-3 d-flex justify-content-center align-items-center contato-footer flex-column'>
-                        <h1 className='fs-5'>Contatos</h1>
-                            <ul className='d-flex flex-column justify-content-center align-items-center me-4 pe-2'>
-                                    <li>1124816172</li>
-                                    <li>email@email.com</li>
+                    <div className='col-12 col-lg-4 d-flex justify-content-center align-items-center contato-footer flex-column mb-2 mb-lg-0'>
+                        <h1 className='fs-5 mt-3 mb-4 mb-lg-2'>Contatos</h1>
+                            <ul className='d-flex flex-column justify-content-center pe-2'>
+                                    <a href="https://api.whatsapp.com/send?phone=11947712745" target="_blank" rel="noopener noreferrer"><li><RiWhatsappFill className='me-3'/>11947712745</li></a>
+                                    <a href="tel:1125615037" target="_blank" rel="noopener noreferrer"><li><BsTelephoneFill className='me-3'/>1125615037</li></a>
+                                    <a href="mailto:contato@melosengenharia.com" target="_blank" rel="noopener noreferrer"><li><AiFillMail className='me-3'/>contato@melosengenharia.com</li></a>
                             </ul>                                         
                     </div>
-                    <div className='col-12 col-lg-3 d-flex justify-content-center mb-4 align-items-center flex-column contato-footer'>
+                    <div className='col-12 col-lg-2 d-flex justify-content-center mb-4 align-items-center flex-column contato-footer'>
                         <h1 className='fs-5'>Endereço</h1>
                             <ul className='d-flex flex-column justify-content-center me-4'>
                                     <li>Rua Lorem Ipsum</li>

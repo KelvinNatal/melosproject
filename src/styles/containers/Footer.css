@@ -23,3 +23,7 @@ li{
 .imagem-footer{
     width: 200px;
 }
+ul a{
+    color: var(--c-secundary);
+    text-decoration: none;
+}
