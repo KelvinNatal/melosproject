@@ -122,7 +122,7 @@ const Contato = () => {
                                 
                                 <li className="mb-3"><BsTelephoneFill className='contato-icon me-5'/><span className="fw-semibold"><a href="tel:1125615037" title="Mande uma mensagem">11 2561-5037</a></span></li>
                                 
-                                <li className="mb-3"><RiWhatsappFill className='contato-icon me-5'/><span className="fw-semibold"><a href="https://api.whatsapp.com/send?phone=11947712745" title="Mande uma mensagem" target="_blank" rel="noopener noreferrer" >11 947712745</a></span></li>
+                                <li className="mb-3"><RiWhatsappFill className='contato-icon me-5'/><span className="fw-semibold"><a href="https://wa.me/5511947712745" title="Mande uma mensagem" target="_blank" rel="noopener noreferrer" >11 947712745</a></span></li>
 
                                 <li className="mb-3"><AiFillMail className='contato-icon me-5'/><span className="fw-semibold"><a href="mailto:contato@melosengenharia.com" title="Me envie um E-mail">contato@melosengenharia.com</a></span></li>   
                             </ul>
