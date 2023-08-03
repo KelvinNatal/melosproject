@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build_staging": "PUBLIC_URL=https://melosengenharia.com/ react-scripts build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
