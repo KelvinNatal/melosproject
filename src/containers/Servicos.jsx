@@ -171,14 +171,22 @@ const informacoesDown = [
                                       backgroundSize: 'cover',
                                       height: '300px'
                                   }}>
-                                      <div className="d-flex w-100">
-                                          <h1 className={visivelUp ? 'ps-4 mb-4 p-1 subTitle-background invisivel' : 'ps-4 mb-5 p-1 fs-2 subTitle-background rounded-end-3'}>{informacoes.subtitle}</h1>
-                                      </div>    
-                                      <div onMouseLeave={() => setVisivelUp(false)} className={visivelUp ? 'hover-content p-3 rounded-3': 'hover-content p-3 invisivel'}>
-                                          <h3 className='fs-5 pt-lg-2 ps-1 mb-2 text-center text-lg-start'>{informacoes.subtitle}</h3>
-                                          <p className={ isMobile ? `textoMobi ps-3 pt-0 pt-lg-1` : `fs-6 ps-3 pt-0 pt-lg-1`}>{ isMobile ? informacoes.textMobile : informacoes.text}</p>
-                                      </div>
-                                  </div>         
+                                    {isMobile ? '' :
+                                        <div className="d-flex w-100">
+                                            <h1 className={visivelUp ? 'ps-4 mb-4 p-1 subTitle-background invisivel' : 'ps-4 mb-5 p-1 fs-2 subTitle-background rounded-end-3'}>{informacoes.subtitle}</h1>
+                                        </div>    
+                                    }
+                                    {isMobile ? 
+                                    <div className='hover-content p-3 rounded-3'>
+                                      <h3 className='fs-5 pt-lg-2 ps-1 mb-2 text-center text-lg-start'>{informacoes.subtitle}</h3>
+                                      <p className={ isMobile ? `textoMobi ps-3 pt-0 pt-lg-1` : `fs-6 ps-3 pt-0 pt-lg-1`}>{ isMobile ? informacoes.textMobile : informacoes.text}</p>
+                                    </div> : 
+                                        <div onMouseLeave={() => setVisivelUp(false)} className={visivelUp ? 'hover-content p-3 rounded-3': 'hover-content p-3 invisivel'}>
+                                            <h3 className='fs-5 pt-lg-2 ps-1 mb-2 text-center text-lg-start'>{informacoes.subtitle}</h3>
+                                            <p className={ isMobile ? `textoMobi ps-3 pt-0 pt-lg-1` : `fs-6 ps-3 pt-0 pt-lg-1`}>{ isMobile ? informacoes.textMobile : informacoes.text}</p>
+                                        </div>
+                                    }
+                                  </div>        
                               </div>                      
                               <div className='col-12 col-lg-4 d-flex justify-content-start align-items-center mt-3 mt-lg-0'>
                                   <div className='title-badge' data-aos="fade-down"></div>
@@ -223,13 +231,21 @@ const informacoesDown = [
                                       backgroundSize: 'cover',
                                       height: '300px'
                                     }}>
+                                      {isMobile ? '' :
                                             <div className="d-flex w-100 justify-content-end">
                                                 <h1 className={visivelDown ? 'pe-4 mb-4 p-1 subTitle-background invisivel' : 'ps-2 pe-4 mb-5 p-1 fs-2 subTitle-background rounded-start-3'}>{informacoes.subtitle}</h1>
-                                            </div>    
+                                            </div>
+                                      }
+                                      {isMobile ? 
+                                      <div className='hover-content p-3 rounded-3'>
+                                        <h3 className='fs-5 pt-lg-2 ps-1 mb-2 text-center text-lg-start'>{informacoes.subtitle}</h3>
+                                        <p className={isMobile ? `textoMobi ps-3 pt-lg-1` : `ps-3 fs-6 pt-1`}>{isMobile ? informacoes.textMobile : informacoes.text}</p>
+                                      </div>  :   
                                             <div onMouseLeave={() => setVisivelDown(false)} className={visivelDown ? 'hover-content p-3 rounded-3': 'hover-content p-3 invisivel'}>
                                                 <h3 className='fs-5 pt-lg-2 ps-1 mb-2 text-center text-lg-start'>{informacoes.subtitle}</h3>
                                                 <p className={isMobile ? `textoMobi ps-3 pt-lg-1` : `ps-3 fs-6 pt-1`}>{isMobile ? informacoes.textMobile : informacoes.text}</p>
                                             </div>
+                                             } 
                                         </div>         
                                     </div>   
                                 </div>
