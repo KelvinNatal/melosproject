@@ -47,3 +47,38 @@ p{
     cursor: grab;
 }
 
+.textoMobi{
+    font-size: 9pt;
+}
+
+.swiper-Height{
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.title-height{
+    height: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) { 
+    #swiper-bottom .swiper-pagination-bullets{
+        padding-bottom: 90px !important;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+
+    #swiper-top .swiper-pagination-bullets{
+        padding-top: 10px !important;
+    }
+
+    #swiper-top{
+        height: 560px;
+    }
+
+}
+
+
+
