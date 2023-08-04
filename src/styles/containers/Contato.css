@@ -66,3 +66,7 @@
     transform: translateY(-0px);
     padding: 10px 50px;
 }
+
+.contato-icon-li:hover{
+    cursor: pointer;
+}

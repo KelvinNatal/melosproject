@@ -128,14 +128,14 @@ const Contato = () => {
                             </ul>
                             <hr/>
                                 <ul className="d-flex align-items-center justify-content-center z-1">
-                                    <li className="nav-item p-2">
-                                        <BsWhatsapp className='fs-4'/>
+                                    <li className="nav-item contato-icon-li p-2">
+                                        <a href='https://api.whatsapp.com/send?phone=11947712745' target="_blank" rel="noopener noreferrer"><BsWhatsapp className='fs-4'/></a>
                                     </li>
-                                    <li className="nav-item p-2">
-                                        <BsFacebook className='fs-4'/>
+                                    <li className="nav-item contato-icon-li p-2">
+                                        <a href='#'><BsFacebook className='fs-4'/></a>
                                     </li>
-                                    <li className="nav-item p-2">
-                                        <BsInstagram className='fs-4'/>
+                                    <li className="nav-item contato-icon-li p-2">
+                                        <a href='https://instagram.com/melosengenharia23?igshid=MzRlODBiNWFlZA==' target="_blank" rel="noopener noreferrer" ><BsInstagram className='fs-4'/></a>
                                     </li>
                                 </ul>
                             <hr/>
