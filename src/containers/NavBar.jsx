@@ -52,14 +52,14 @@ const NavBar = () => {
                         </li>
                     </ul>
                     <ul className="mt-3 ms-auto d-flex align-items-center justify-content-center z-1">
-                        <li className="nav-item p-2">
-                            <BsWhatsapp className='fs-4'/>
+                        <li className="nav-item icon-items p-2">
+                            <a href='https://api.whatsapp.com/send?phone=11947712745' target="_blank" rel="noopener noreferrer"><BsWhatsapp className='nav-icon-whatsapp fs-4'/></a>
                         </li>
-                        <li className="nav-item p-2">
-                            <BsFacebook className='fs-4'/>
+                        <li className="nav-item icon-items p-2">
+                            <a href='#'><BsFacebook className='nav-icon-facebook fs-4'/></a>
                         </li>
-                        <li className="nav-item p-2">
-                            <BsInstagram className='fs-4'/>
+                        <li className="nav-item icon-items p-2">
+                            <a href='https://instagram.com/melosengenharia23?igshid=MzRlODBiNWFlZA==' target="_blank" rel="noopener noreferrer" ><BsInstagram className='nav-icon-instagram fs-4'/></a>
                         </li>
                     </ul>
                 </div>

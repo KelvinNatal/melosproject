@@ -27,3 +27,18 @@ ul a{
     color: var(--c-secundary);
     text-decoration: none;
 }
+
+.footer-icon-whatsapp:hover{
+    cursor:pointer;
+    color: #25D366;
+}
+
+.footer-icon-facebook:hover{
+    cursor: pointer;
+    color: #406ed3;
+}
+
+.footer-icon-instagram:hover{
+    cursor: pointer;
+    color: #E1306C;
+}

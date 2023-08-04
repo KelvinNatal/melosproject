@@ -34,13 +34,13 @@ const Footer = () => {
                     <div className='col-12 col-lg-1 d-flex align-items-center justify-content-center pe-5 pe-lg-0'>
                         <ul className="d-flex lista-icones">
                             <li className="ps-3 p-2">
-                                <BsWhatsapp className='fs-4'/>
+                                <a href='https://api.whatsapp.com/send?phone=11947712745' target="_blank" rel="noopener noreferrer"><BsWhatsapp className='footer-icon-whatsapp fs-4'/></a>
                             </li>
                             <li className="p-2">
-                                <BsFacebook className='fs-4'/>
+                                <a href='#'><BsFacebook className='footer-icon-facebook fs-4'/></a>
                             </li>
                             <li className="p-2">
-                                <BsInstagram className='fs-4'/>
+                                <a href='https://instagram.com/melosengenharia23?igshid=MzRlODBiNWFlZA==' target="_blank" rel="noopener noreferrer" ><BsInstagram className='footer-icon-instagram fs-4'/></a>
                             </li>
                         </ul>
                     </div>

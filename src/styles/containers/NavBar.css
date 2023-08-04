@@ -44,3 +44,21 @@ a.ativo{
     text-decoration:none;
 }
 
+.nav-icon-whatsapp:hover{
+    cursor:pointer;
+    color: #25D366;
+}
+
+.nav-icon-facebook:hover{
+    cursor: pointer;
+    color: #406ed3;
+}
+
+.nav-icon-instagram:hover{
+    cursor: pointer;
+    color: #E1306C;
+}
+
+.icon-items a{
+    color: white;
+}
